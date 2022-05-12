@@ -1,0 +1,129 @@
+
+ul:nth-child(6n+1) {
+  background: #000;
+  color: #fff;
+}
+
+ul:nth-child(6n+2) {
+  background: #000;
+  color: #fff;
+}
+
+ul:nth-child(6n+3) {
+  background: #000;
+  color: #fff;
+}
+
+ul:nth-child(6n+4) {
+  background: #000;
+  color: #fff;
+}
+
+ul:nth-child(6n+5) {
+  background: #000;
+  color: #fff;
+}
+
+ul:nth-child(6n+6) {
+  background: #000;
+  color: #fff;
+}
+
+body {
+  font: 100% "Space Mono", monospace;
+  color: #6b717f;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+header h1 {
+  color: rgba(175, 52, 72, 0.7607843137);
+}
+
+main {
+  padding-bottom: padding 64, 0;
+  padding-top: padding 64, 0;
+}
+
+article section {
+  flex-grow: 1;
+  flex-basis: 45%;
+  border: 1px #8C8C8C solid;
+  box-shadow: 10px 10px 15px -4px #6b717f;
+  padding: 16px;
+  margin: 16px;
+  clear: both;
+  overflow: auto;
+  box-sizing: border-box;
+}
+article #selling-points {
+  flex-grow: 2;
+  flex-basis: 100%;
+}
+article code {
+  background: #000;
+  border: 1px solid #6b717f;
+  color: #8C8C8C;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+article .before {
+  float: left;
+  width: 40%;
+}
+article .after {
+  float: right;
+  width: 40%;
+}
+
+section h2, section h3 {
+  color: #9e363f;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 32px;
+  margin-bottom: 0px;
+}
+
+.messages {
+  padding: 16px;
+}
+.messages .success,
+.messages .error,
+.messages .warning {
+  border: 1px solid #8C8C8C;
+  padding: 16px;
+  color: #fff;
+}
+.messages .success {
+  background-color: rgb(67, 155, 67);
+}
+.messages .error {
+  background-color: rgb(218, 65, 65);
+}
+.messages .error:hover {
+  background: rgb(67, 155, 67);
+}
+.messages .warning {
+  background-color: rgb(212, 154, 45);
+}
+
+footer h3 {
+  padding: padding 64, 0;
+}/*# sourceMappingURL=styles.css.map */
